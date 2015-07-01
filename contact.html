@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <title>Contact Me</title>
+    <meta name="keywords"
+          content="seeking employment, entry level programming, software engineer, technical support, resume, online resume"/>
+    <meta name="description"
+          content="This is an online resume seeking to show education, experience, and goals in an effort to seek new employment in the software field"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+<script type="text/javascript" src="validateform.js"></script>
+<div id="container">
+    <div id="intro">
+        <div id="header">
+            <h1><span>Online Resume</span></h1>
+        </div>
+    </div>
+    <div id="topnav">
+        <ul>
+            <li><a href="index.html" accesskey="h" tabindex="2">Home Page</a></li>
+            <li><a href="hobbies.html" accesskey="o" tabindex="2">Hobbies</a></li>
+            <li><a href="projects.html" accesskey="p" tabindex="2">Projects</a></li>
+            <li><a href="contact.html" accesskey="r" tabindex="2">Contact Me</a></li>
+        </ul>
+    </div>
+    <div id="leftnav">
+    </div>
+    <div id="content">
+        <h2>Contact Me</h2>
+
+        <form id="resumeForm" action="validateform.js" method="post" onsubmit="return formVal();">
+            <div><h3>If you want a copy of my resume, references, work history, or wish to contact me about a job offer
+                or project please enter the information below and I will email the requested information back to
+                you.</h3></div>
+            <fieldset>
+                <legend>Personal Information</legend>
+<ul style="list-style-type: none"><li>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" title="Enter your first name" accesskey="f"
+                       tabindex="1"/>
+</li><li><br/>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" title="Enter your last name" accesskey="l"
+                       tabindex="1"/>
+</li><li><br/>
+                <label for="companyname">Company Name:</label>
+                <input type="text" id="companyname" name="companyname" title="Companies Name" accesskey="c"
+                       tabindex="1"/>
+</li><li><br/>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" title="email" accesskey="e" tabindex="1"/>
+</li></ul>
+            </fieldset>
+            <fieldset>
+                <legend>Requested Information</legend>
+                <label><input type="checkbox" name="resume" value="resume" accesskey="e" tabindex="1"/>Resume</label>
+                <label><input type="checkbox" name="references" value="references" accesskey="f" tabindex="1"/>References</label>
+                <label><input type="checkbox" name="workhistory" value="workhistory" accesskey="w" tabindex="1"/>WorkHistory</label>
+                <label><input type="checkbox" name="contactrequest" value="contactrequest" accesskey="w" tabindex="1"/>Contact Request</label>
+            </fieldset>
+            <fieldset>
+                <legend>Comments</legend>
+                <textarea id="comments" name="comments" title="Enter comments you may have" rows="8" cols="65"
+                          accesskey="m" tabindex="1"></textarea>
+                <input type="submit" id="btn1" value="Submit" accesskey="s" tabindex="1"/>
+                <input type="reset" id="btn2" value="Reset" accesskey="t" tabindex="1"/>
+            </fieldset>
+        </form>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="contact.html">Resume</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <p>&copy; by Adrian Jay Lopez</p>
+    </div>
+</div>
+</body>
+</html>
+      
+
