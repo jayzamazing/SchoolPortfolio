@@ -1,0 +1,21 @@
+{
+  "name": "School Portfolio",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jayzamazing/SchoolPortfolio",
+  "authors": [
+    "jayzamazing <adrianjaylopez@gmail.com>"
+  ],
+  "description": "A school portfolio project that I am going to play around with for practice.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

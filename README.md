@@ -17,3 +17,10 @@ List of technologies used:
     </li>
   </ul>
 </p>
+<div>
+    <img class="smaller-image" src="github pictures/index.jpg">
+    <img class="smaller-image" src="github pictures/hobbies.jpg">
+    <img class="smaller-image" src="github pictures/projects.jpg">
+    <img class="smaller-image" src="github pictures/contactme.jpg">
+
+</div>
